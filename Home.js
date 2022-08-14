@@ -1,14 +1,14 @@
 import React from 'react'
-import HeadTitle from '../../common/HeadTitle/HeadTitle'
-import AllItem from './AllItem'
+import AccommodationHome from '../HomeSection/Accomm/AccommodationHome'
+import Hero from '../HomeSection/Hero'
 
-const Accommodation = () => {
+const Home = () => {
   return (
     <>
-      <HeadTitle />
-      <AllItem />
+      <Hero /> 
+      
     </>
   )
 }
 
-export default Accommodation
+export default Home
