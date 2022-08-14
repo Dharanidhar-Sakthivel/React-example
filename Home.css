@@ -1,0 +1,53 @@
+
+.display {
+  overflow: hidden;
+  position: relative;
+  height: 200vh;
+}
+
+.display img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*--------form-----------*/
+.slide-form h2 {
+  margin-top: 20px;
+}
+.slide-form {
+  position: fixed;
+  top: 35%;
+  left: 10%;
+  background-color:transparent;
+  width: 35%;
+  height: 60vh;
+  border-radius: 5px;
+  color: white;
+}
+.slide-form input {
+  margin-top: 20px;
+}
+.slide-form .flex_space input:nth-child(odd) {
+  margin-right: 20px;
+}
+.slide-form .Submit {
+  background: #31b675;
+  color: white;
+}
+/*--------form-----------*/
+@media screen and (max-width: 768px) {
+  .display {
+    height: 65vh;
+  }
+  .display img {
+    height: 65vh;
+  }
+  .slide-form {
+    left: 5%;
+    top: 32%;
+    width: 90%;
+    height: 55vh;
+  }
+}
+
